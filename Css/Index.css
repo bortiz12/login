@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../Img/bg.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.login{
+    width: 320px;
+    height: 100%;
+    background-color: black;
+    color: #FFF;
+    padding: 70px 30px;
+}
+.login input{
+     width: 100%;
+     margin: 20px;
+ }

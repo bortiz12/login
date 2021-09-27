@@ -5,23 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="Css/Index.css">
 </head>
 <body>
-    <div class="container">
+    <div class="login">
+        <div class="Logo"></div>
         <form action="">
-            <label for="nombre">
-                <input type="text" name="nombre" placeholder="Ingrese su User">
-            </label>
-            <label for="Password">
-                <input type="text" name="Password" placeholder="Password">
-            </label>
-            <select name="select" required>
-                <option value="1" selected>Estudiante</option>
+            <input type="text" placeholder="Usuario">
+            <input type="text" placeholder="Password">
+            <select name="selecionar" id="">
+                <option selected>Seleccione un Usuario</option>
+                <option value="1">Estudiante</option>
                 <option value="2">Docente</option>
-                <option value="3">Administrador</option>
+                <option value="3">Administrativo</option>
             </select>
-            <a href="">Recuperar Password</a>
-            <button type="submit">Login </button>
+            <a href="#">lost your Password</a>
+            <button type="submit">Login</button>
         </form>
     </div>
 </body>
